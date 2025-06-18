@@ -30,6 +30,12 @@ ul {
 header {
   background: linear-gradient( to left, #442e04, #cdb482);
   padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;/* or your brand color */
+  z-index: 999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
 nav {
