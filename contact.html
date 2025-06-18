@@ -25,34 +25,67 @@
         </nav>
     </header>
 
-    <section class="contact-form">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name" required>
+    <!-- CONTACT WRAPPER -->
+    <section class="contact-wrapper">
+        <div class="contact-grid">
+            <!-- ─── CONTACT FORM ──────────────── -->
+            <div class="contact-form">
+                <h2>Contact Us</h2>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Your email" required>
+                <form>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Your email" required><br><br>
 
-            <button type="submit">Send Message</button>
-        </form>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea><br><br>
+
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+
+            <!-- ─── GOOGLE MAP ────────────────── -->
+            <div class="map-section">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.9342782051567!2d3.3910703!3d6.529985099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d1b67c785cf%3A0x54e82642b73b5318!2s18%20Council%20Obule%20St%2C%20Akoka%2C%20Lagos%20102216%2C%20Lagos!5e0!3m2!1sen!2sng!4v1750271520639!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </section>
-    
-    <section>
 
-    </section>
+    <!-- FAQ SECTION  -->
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
 
-    <section>
-       <div>
+        <ul>
+            <li>
+                <div class="faq">
+                    <h4>Do I need an account to use the Skin Analyzer?</h4>
+                    <p>No, you can run a quick scan as a guest and create an account later to save your results.</p>
+                </div>
+            </li>
 
-       </div> 
+            <li>
+                <div class="faq">
+                    <h4>Is my photo stored on your servers?</h4>
+                    <p>No. Your image is processed securely and deleted immediately after analysis.</p>
+                </div>
+            </li>
 
-       <aside>
+            <li>
+                <div class="faq">
+                    <h4>How accurate are the skin insights?</h4>
+                    <p>The analyzer is trained on 1k+ dermatology‑graded images and achieves 92% accuracy on common skin‑condition markers.</p>
+                </div>
+            </li>
 
-       </aside>
+            <li>
+                <div class="faq">
+                    <h4>Can I use the tool on mobile?</h4>
+                    <p>Absolutely — the analyzer is fully responsive and works in any mobile browser.</p>
+                </div>
+            </li>
+        </ul>
     </section>
 
     <!-- FOOTER SECTION -->
